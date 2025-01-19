@@ -25,12 +25,15 @@ export default function Contact() {
           name="LinkedIn"
         />
         <SocialMedia
-          icon="/icons/icons8-email-48.png"
+          icon="/icons/email.png"
           link="home.branko@gmail.com"
           name="email"
         />
       </div>
-      <NavLink to="/">Back to overview</NavLink>
+      <div className="px-4 m-8 rounded-full w-fit bg-slate-500 text-slate-200 hover:bg-slate-700">
+        <NavLink to="/">Back to overview</NavLink>
+      </div>
+
       <Footer />
     </motion.div>
   );
